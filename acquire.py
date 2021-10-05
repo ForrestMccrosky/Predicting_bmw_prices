@@ -79,7 +79,7 @@ def summarize_df(df):
     print('------------------------------------------------\n')
     
     ## creating a list of columns I want value counts for
-    list = ['fuelType', 'tranmission']
+    list = ['fuelType', 'transmission']
     
     ## using list comprehension to look through our custom list of columns and print
     ## out their value counts
